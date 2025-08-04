@@ -1,7 +1,6 @@
 html,
 body {
     background-color: rgb(37, 35, 35);
-    color: white;
 }
 
 .calc {
@@ -31,6 +30,10 @@ body {
 }
 button {
     border-radius: 50%;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
 }
 
 .digits,
