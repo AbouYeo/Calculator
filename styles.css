@@ -1,0 +1,51 @@
+html,
+body {
+    background-color: rgb(37, 35, 35);
+    color: white;
+}
+
+.calc {
+    width: 300px;
+    height: 500px;
+    background-color: rgb(11, 4, 4);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+#screen {
+    height: 25%;
+    width: 290px;
+    background-color: aquamarine;
+    margin-bottom: 15px;
+}
+
+#keybord {
+    height: 75%;
+    width: 290px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+button {
+    border-radius: 50%;
+}
+
+.digits,
+.spec,
+.ops {
+    text-align: center;
+    padding: 5px;
+}
+.spec {
+    background-color: rgb(157, 152, 152);
+}
+.ops {
+    background-color: rgb(241, 124, 7);
+}
+
+.digits {
+    background-color: rgb(43, 41, 38);
+}
